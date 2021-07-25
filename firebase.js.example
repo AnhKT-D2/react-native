@@ -1,0 +1,14 @@
+import firebase from 'firebase';
+let firebaseConfig = {
+    apiKey: "xxxxx",
+    authDomain: "xxx",
+    projectId: "xxxx",
+    storageBucket: "xxx",
+    messagingSenderId: "xxx",
+    appId: "1:464097151749:web:xxx",
+    measurementId: "G-xxx"
+};
+// Initialize Firebase
+const fire = firebase.initializeApp(firebaseConfig);
+
+export default fire;
